@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /about/
+permalink: /about.md/
 layout: single
 author_profile: true
 toc: false
