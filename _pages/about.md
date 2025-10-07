@@ -1,10 +1,10 @@
 ---
-title: "About"
-permalink: /about/
-layout: single
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
-toc: false
-classes: wide
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am **Dr. Karthi Shanmugam**, **Assistant Professor of Bioinformatics and Drug Design** at the **School of Chemical and Biotechnology, SASTRA Deemed University**, India.
