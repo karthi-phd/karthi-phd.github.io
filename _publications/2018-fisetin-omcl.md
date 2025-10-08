@@ -8,5 +8,7 @@ category: journal
 authors: "Shanmugam, K., Ravindran, S., Kurian, G. A., & Rajesh, M."
 paperurl: "https://doi.org/10.1155/2018/9173436"
 pdf: "/files/fisetin-omcl-2018.pdf"
-citation: "Shanmugam, K., Ravindran, S., Kurian, G. A., & Rajesh, M. (2018). Fisetin confers cardioprotection against myocardial ischemia–reperfusion injury by suppressing mitochondrial oxidative stress and dysfunction and inhibiting glycogen synthase kinase 3β activity. *Oxidative Medicine and Cellular Longevity*, 2018, 9173436. https://doi.org/10.1155/2018/9173436"
+citation: "Shanmugam, K., Ravindran, S., Kurian, G. A., & Rajesh, M. (2018). Fisetin confers cardioprotection against myocardial ischemia–reperfusion injury by suppressing mitochondrial oxidative stress and dysfunction and inhibiting glycogen synthase kinase 3β activity. Oxidative Medicine and Cellular Longevity, 2018, 9173436. https://doi.org/10.1155/2018/9173436"
 ---
+### Abstract
+Fisetin, a dietary flavonoid, confers cardioprotection against myocardial ischemia–reperfusion injury. Using Langendorff-perfused rat hearts and complementary computational analyses, we show that fisetin reduces oxidative stress, preserves mitochondrial function and structure, and is associated with inhibition of glycogen synthase kinase 3β activity.
