@@ -1,50 +1,11 @@
-
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/index.html
-author_profile: true
+author_profile: false
 ---
+
+<h1>Testing Publications Page</h1>
+<p>If you can read this, the page is finally being built.</p>
+
 {{ site.publications | size }} publications found.
-{% include base_path %}
-
-<div class="text-justify">
-
-<p>
-My publications reflect my interests in <strong>computational drug design</strong>, <strong>systems pharmacology</strong>, and <strong>translational biology</strong>.
-They span topics such as cardioprotection, mitochondrial bioenergetics, ADMET and toxicity modeling, and antimicrobial drug discovery.
-This collection includes peer-reviewed journal articles, conference papers, and collaborative works that integrate
-computational modeling with experimental validation.
-</p>
-
-<p>
-For a complete list of citations and metrics, visit my
-<a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
-</p>
-
-</div>
-
-<hr />
-
-<!-- Automatically render publications by category (Journal, Conference, etc.) -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2>
-        <hr class="section-divider"/>
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  <!-- Default: show all publications if no categories defined -->
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
