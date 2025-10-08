@@ -10,3 +10,5 @@ excerpt: "This study describes how fisetin modulates epigenetic regulation to ma
 paperurl: "https://doi.org/10.xxxx/fig.xxxxxx"
 citation: "Shanmugam, K., & Kurian, G. A. (2024). *Functional & Integrative Genomics*. https://doi.org/10.xxxx/fig.xxxxxx"
 ---
+### Abstract
+Epigenetic modifications play a crucial role in mitochondrial gene regulation during ischemia–reperfusion injury. ...
