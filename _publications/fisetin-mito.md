@@ -1,6 +1,7 @@
 ---
 title: "DNA hypomethylation by fisetin preserves mitochondrial functional genes and protects against ischemia–reperfusion injury"
 collection: publications
+type: publications
 permalink: /publication/fisetin-mito/
 date: 2024-03-15
 venue: "Functional & Integrative Genomics"
