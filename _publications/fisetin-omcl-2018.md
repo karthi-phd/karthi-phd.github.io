@@ -14,5 +14,3 @@ citation: "Shanmugam, K., Ravindran, S., Kurian, G.A., & Rajesh, M. (2018). *Oxi
 
 ### Abstract
 Fisetin, a dietary flavonoid, confers cardioprotection against myocardial ischemia–reperfusion injury. Using Langendorff-perfused rat hearts and complementary computational analyses, we show that fisetin reduces oxidative stress, preserves mitochondrial function and structure, and is associated with inhibition of glycogen synthase kinase 3β activity.
-
-[📄 **Download Full Text (PDF)**]({{ site.baseurl }}{{ page.pdf }}) | [🔗 **View DOI**]({{ page.paperurl }})
