@@ -1,11 +1,38 @@
 ---
-layout: single
+layout: archive
 title: "Publications"
-permalink: /publications/index.html
-author_profile: false
+permalink: /publications/
+author_profile: true
 ---
 
-<h1>Testing Publications Page</h1>
-<p>If you can read this, the page is finally being built.</p>
+{% include base_path %}
 
-{{ site.publications | size }} publications found.
+<div class="text-justify">
+
+<p>
+My publications reflect my interests in <strong>computational drug design</strong>, <strong>systems pharmacology</strong>, and <strong>translational biology</strong>.
+They span topics such as cardioprotection, mitochondrial bioenergetics, ADMET and toxicity modeling, and antimicrobial drug discovery.
+This collection includes peer-reviewed journal articles, conference papers, and collaborative works that integrate computational modeling with experimental validation.
+</p>
+
+<p>
+For a complete list of citations and metrics, visit my
+<a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
+</p>
+
+</div>
+
+<hr />
+
+<!-- Automatically render publications -->
+{% for post in site.publications reversed %}
+  <h3>{{ post.title }}</h3>
+  <p><em>{{ post.venue }}, {{ post.date | date: "%Y" }}</em></p>
+  <p>{{ post.excerpt }}</p>
+
+  {% if post.paperurl %}
+    <p><a href="{{ post.paperurl }}">View on Journal Website</a></p>
+  {% endif %}
+
+  <hr>
+{% endfor %}
