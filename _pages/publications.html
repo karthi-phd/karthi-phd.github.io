@@ -26,24 +26,19 @@ For a complete list of citations and metrics, visit my
 
 {% for post in site.publications reversed %}
   <article class="publication-entry">
-    <h3>{{ post.title }}</h3>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <p><em>{{ post.venue }}, {{ post.date | date: "%Y" }}</em></p>
     <p><strong>Authors:</strong> {{ post.authors }}</p>
-    <p>{{ post.excerpt }}</p>
 
-    <!-- Show abstract and links -->
-    <div class="pub-content">
-      {{ post.content | markdownify }}
-    </div>
-
-    <div class="pub-links">
+    <div class="pub-links" style="margin:0.5rem 0 1rem;">
+      {% if post.pdf %}
+        <a class="btn btn--inverse btn--small" href="{{ post.pdf | relative_url }}" target="_blank">Download PDF</a>
+      {% endif %}
       {% if post.paperurl %}
         <a class="btn btn--primary btn--small" href="{{ post.paperurl }}" target="_blank">View DOI</a>
       {% endif %}
-      {% if post.pdf %}
-        <a class="btn btn--inverse btn--small" href="{{ site.baseurl }}{{ post.pdf }}" target="_blank">Download PDF</a>
-      {% endif %}
     </div>
+
     <hr />
   </article>
 {% endfor %}
