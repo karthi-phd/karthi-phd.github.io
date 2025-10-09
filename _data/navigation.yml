@@ -13,7 +13,7 @@ main:
     url: /teaching/  
     
   - title: "Research"
-    #url: /portfolio/
+    url: /research/
     
   - title: "Publications"
     url: /publications/
@@ -22,7 +22,7 @@ main:
    # url: /talks/    
         
   - title: "Patents"
-   # url: /year-archive/
+   url: /patents/
     
   - title: "CV"
     url: /cv/
