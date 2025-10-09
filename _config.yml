@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Teach-Hustle-Inspire"
+title                    : "Karthi Shanmugam Ph.D."
 title_separator          : "-"
 name                     : &name "Teach"
 description              : &description ""   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,7 +24,7 @@ repository               : "karthi-phd/karthi-phd.github.io"
 author:
   # Biographic information
   avatar           : "karthigit.png"
-  name             : "Karthi Shanmugam"
+  name             : "About Me"
   pronouns         : # example: "she/her"  
   bio              : "Teach-Hustle-Inspire-Repeat"
   location         : "Tiruchirapalli"
