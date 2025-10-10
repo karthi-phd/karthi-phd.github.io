@@ -9,7 +9,7 @@
 
 main:
 
-  - title: "About Me"
+  - title: "Home"
     url: /
     
   - title: "Teaching"
