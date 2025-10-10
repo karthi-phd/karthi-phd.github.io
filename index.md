@@ -6,35 +6,11 @@ author_profile: true
 redirect_from:
   - /home/
 ---
-# Dr. [Your Full Name]
 
-## Computational Biologist | AI/ML Specialist | Educator
+### About Me
 
----
+I am an Assistant Professor in the School of Chemical and Biotechnology at SASTRA Deemed University, Tiruchirapalli, where I combine my interests in computational drug discovery, molecular informatics, and translational pharmacology. My work focuses on understanding how small molecules influence disease pathways at both the molecular and systems levels, using an integrated computational and experimental approach.
 
-### My Vision: Predictive Therapeutics
+My doctoral research focused on the discovery of polyphenol-based cardioprotective agents against myocardial ischemia–reperfusion injury. Using pharmacophore modeling, molecular docking, molecular dynamics simulations, and ADMET predictions, I identified natural compounds capable of modulating mitochondrial and signaling pathways associated with cardiac injury. This integrative workflow aims to accelerate the translation of computational insights into therapeutically viable molecules.
 
-I am a **Computational Biologist** and Assistant Professor dedicated to accelerating therapeutic innovation at the interface of chemistry and living systems. My core mission is to shift drug development from an iterative, high-cost process to a rapid, data-driven methodology by focusing on **predictive computational biology**.
-
-My professional goal is to translate molecular insights into actionable clinical strategies. I am currently seeking **Postdoctoral Fellowships** where I can apply advanced machine learning and systems pharmacology expertise to high-impact challenges in drug discovery and disease intervention.
-
-### Core Expertise and Research Impact
-
-My research is centered on integrating advanced computational techniques to solve complex biological problems:
-
-* **AI/Machine Learning:** Developing and applying models for hit identification, **toxicity forecasting**, and ADMET prediction, leveraging both deep learning and classical modeling frameworks.
-* **Systems Pharmacology:** Employing systems-level approaches to map complex compound-target-disease relationships, moving beyond single-target hypotheses to understand disease mechanisms.
-* **Translational Rigor:** My doctoral work combined **computational and experimental methods** to explain the cardioprotective effects of the flavonoid fisetin, specifically demonstrating its role in preserving **mitochondrial function** during ischemic injury. This capacity to blend *in silico* prediction with *in vitro* validation is central to my philosophy.
-
-I thrive in **cross-disciplinary collaboration**, partnering with chemists, clinicians, and microbiologists to ensure computational predictions yield tangible therapeutic insights.
-
-### Academic Leadership and Outreach
-
-Beyond research, I am committed to advancing scientific communication and mentorship:
-
-* **Educator:** As an Assistant Professor of Bioinformatics, I design and teach advanced university courses (Drug Informatics, Immunoinformatics) focused on **problem-based learning** that connects computational reasoning to real-world biomedical challenges.
-* **Open Science Leadership:** I founded and lead **Primal Bioinformatics**, a successful digital education initiative. This project demonstrates proven leadership in creating open, accessible resources (video lectures, tutorials) to foster an inclusive, global community for aspiring computational biologists.
-
----
-
----
+Beyond research, I am deeply committed to teaching and mentoring in the computational life sciences. I teach courses such as Drug Informatics and Immunoinformatics, integrating AI-driven pedagogy, data-centric analysis, and problem-based learning. Through this dual focus on discovery and education, I aim to foster an environment where students and collaborators can merge biological insight with computational precision to solve complex biomedical problems.
