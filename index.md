@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "About Me"
+title: "Home"
 permalink: /
 author_profile: true
 redirect_from:
-  - /about/
+  - /home/
 ---
 I am a computational biologist and educator interested in how molecules interact with living systems and how that knowledge can be used to design better therapies.  
 At present, I work as an Assistant Professor of Bioinformatics at the School of Chemical and Biotechnology, SASTRA Deemed University, India. My research combines molecular modeling, systems pharmacology, and artificial intelligence to explore the links between chemistry and biology in health and disease.
