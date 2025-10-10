@@ -24,7 +24,7 @@ repository               : "karthi-phd/karthi-phd.github.io"
 author:
   # Biographic information
   avatar           : "photo-researchgate-1.png"
-  name             : #"About Me"
+  name             : "About Me"
   pronouns         : # example: "she/her"  
   bio              : "Teach-Hustle-Inspire-Repeat"
   location         : "Tiruchirapalli"
