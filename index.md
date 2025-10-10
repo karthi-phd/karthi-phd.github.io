@@ -6,17 +6,35 @@ author_profile: true
 redirect_from:
   - /home/
 ---
-I am a computational biologist and educator interested in how molecules interact with living systems and how that knowledge can be used to design better therapies.  
-At present, I work as an Assistant Professor of Bioinformatics at the School of Chemical and Biotechnology, SASTRA Deemed University, India. My research combines molecular modeling, systems pharmacology, and artificial intelligence to explore the links between chemistry and biology in health and disease.
+# Dr. [Your Full Name]
 
-During my Ph.D., I studied the cardioprotective effects of the natural flavonoid fisetin using a combination of computational and experimental approaches. This work helped explain how small molecules preserve mitochondrial function and energy balance during ischemia–reperfusion injury. The experience shaped my broader research philosophy: biology can be better understood and predicted when computation and experimentation are viewed as partners rather than separate disciplines.
+## Computational Biologist | AI/ML Specialist | Educator
 
-My recent projects focus on AI-guided drug discovery, toxicity prediction, and natural product-inspired therapeutics. I am particularly interested in how computational models can forecast biological outcomes before experiments are performed. Much of my work is collaborative, involving chemists, microbiologists, and clinicians, with the goal of translating computational predictions into tangible therapeutic insights.
+---
 
-Teaching is an essential part of my academic life. I teach courses in Drug Informatics and Immunoinformatics, where I encourage students to think critically and apply computational reasoning to biological questions. I enjoy designing problem-based learning sessions that connect algorithms with real-world biomedical challenges.
+### My Vision: Predictive Therapeutics
 
-Outside teaching and research, I lead *Primal Bioinformatics*, a digital education initiative that provides open resources for students interested in computational biology. Through video lectures, tutorials, and community projects, I aim to make scientific learning more open, collaborative, and inclusive.
+I am a **Computational Biologist** and Assistant Professor dedicated to accelerating therapeutic innovation at the interface of chemistry and living systems. My core mission is to shift drug development from an iterative, high-cost process to a rapid, data-driven methodology by focusing on **predictive computational biology**.
 
-In essence, my work lies at the interface of computation, chemistry, and biology, driven by a simple goal — to understand how molecular information can be used to prevent or reverse disease.
+My professional goal is to translate molecular insights into actionable clinical strategies. I am currently seeking **Postdoctoral Fellowships** where I can apply advanced machine learning and systems pharmacology expertise to high-impact challenges in drug discovery and disease intervention.
+
+### Core Expertise and Research Impact
+
+My research is centered on integrating advanced computational techniques to solve complex biological problems:
+
+* **AI/Machine Learning:** Developing and applying models for hit identification, **toxicity forecasting**, and ADMET prediction, leveraging both deep learning and classical modeling frameworks.
+* **Systems Pharmacology:** Employing systems-level approaches to map complex compound-target-disease relationships, moving beyond single-target hypotheses to understand disease mechanisms.
+* **Translational Rigor:** My doctoral work combined **computational and experimental methods** to explain the cardioprotective effects of the flavonoid fisetin, specifically demonstrating its role in preserving **mitochondrial function** during ischemic injury. This capacity to blend *in silico* prediction with *in vitro* validation is central to my philosophy.
+
+I thrive in **cross-disciplinary collaboration**, partnering with chemists, clinicians, and microbiologists to ensure computational predictions yield tangible therapeutic insights.
+
+### Academic Leadership and Outreach
+
+Beyond research, I am committed to advancing scientific communication and mentorship:
+
+* **Educator:** As an Assistant Professor of Bioinformatics, I design and teach advanced university courses (Drug Informatics, Immunoinformatics) focused on **problem-based learning** that connects computational reasoning to real-world biomedical challenges.
+* **Open Science Leadership:** I founded and lead **Primal Bioinformatics**, a successful digital education initiative. This project demonstrates proven leadership in creating open, accessible resources (video lectures, tutorials) to foster an inclusive, global community for aspiring computational biologists.
+
+---
 
 ---
