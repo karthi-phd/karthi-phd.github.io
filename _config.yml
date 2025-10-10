@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Karthi Shanmugam Ph.D."
 title_separator          : "-"
-name                     : &name "Teach"
+name                     : &name "Karthi Shanmugam"
 description              : &description ""   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://karthi-phd.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -29,7 +29,7 @@ author:
   bio              : "Teach-Hustle-Inspire-Repeat"
   location         : "Tiruchirapalli"
   employer         : "SASTRA Deemed University"
-  uri              : "https://www.sastra.edu"
+  uri              : #"https://www.sastra.edu"
   email            : "karthi@scbt.sastra.edu" 
 
   # Academic websites
