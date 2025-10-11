@@ -3,6 +3,7 @@ title: "Sodium Thiosulfate Preconditioning Ameliorates Ischemia/Reperfusion Inju
 collection: publications
 permalink: /publication/2017-sodium-thiosulfate/
 date: 2017-07-05
+year: 2017
 venue: "Cardiovascular Drugs and Therapy"
 category: journal
 authors: "Ravindran, S., Boovarahan, S. R., Shanmugam, K., & Kurian, G. A."
