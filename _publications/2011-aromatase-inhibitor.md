@@ -3,6 +3,7 @@ title: "Insight into the enzyme–inhibitor interactions of the first experiment
 collection: publications
 permalink: /publication/2011-aromatase-inhibitor/
 date: 2011-09-20
+year: 2011
 venue: "Journal of Biomolecular Structure and Dynamics"
 category: journal
 authors: "Punetha, A., Shanmugam, K., & Sundar, D."
