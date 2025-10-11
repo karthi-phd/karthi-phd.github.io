@@ -3,6 +3,7 @@ title: "Combinatorial effects of trans-cinnamaldehyde with fluoride and chlorhex
 collection: publications
 permalink: /publication/2020-cinnamaldehyde-fluoride/
 date: 2020-09-05
+year: 2020
 venue: "Journal of Applied Microbiology"
 category: journal
 authors: "Balasubramanian, A. R., Vasudevan, S., Shanmugam, K., & Neelakantan, P."
