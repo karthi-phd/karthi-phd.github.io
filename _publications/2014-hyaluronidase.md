@@ -3,6 +3,7 @@ title: "The enzymology of Streptococcus pyogenes hyaluronidase"
 collection: publications
 permalink: /publication/2014-hyaluronidase/
 date: 2014-06-09
+year: 2014
 venue: "Indian Journal of Biotechnology"
 category: journal
 authors: "Srikanth, B., Shanmugam, K., & Solomon, A. P."
