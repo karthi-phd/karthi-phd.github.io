@@ -3,6 +3,7 @@ title: "Fisetin Preserves Interfibrillar Mitochondria to Protect Against Myocard
 collection: publications
 permalink: /publication/2022-fisetin-ifm/
 date: 2022-07-10
+year: 2022
 venue: "Cell Biochemistry and Biophysics"
 category: journal
 authors: "Shanmugam, K., Prem, P. N., Boovarahan, S. R., & Kurian, G. A."
