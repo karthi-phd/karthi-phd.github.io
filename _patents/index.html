@@ -20,10 +20,15 @@ My patent contributions reflect the translational dimension of my research, span
 {% assign pct = all | where: "jurisdiction", "PCT" %}
 {% assign ind = all | where: "jurisdiction", "India" %}
 
-<h2 id="pct">PCT</h2>
-{% if pct and pct.size > 0 %}
-  {% assign by_year = pct | sort: "year" | reverse | group_by: "year" %}
-  {% for yr in by_year %}
+{% assign all = site.patents %}
+
+{% assign order = "PCT,India,China,United States,Europe" | split: "," %}
+{% for label in order %}
+  {% assign items = all | where: "jurisdiction", label %}
+  {% if items and items.size > 0 %}
+<h2 id="{{ label | downcase | replace: ' ', '-' }}">{{ label }}</h2>
+    {% assign by_year = items | sort: "year" | reverse | group_by: "year" %}
+    {% for yr in by_year %}
 ### {{ yr.name }}
 <ul>
   {% for pat in yr.items | sort: "title" %}
@@ -35,7 +40,6 @@ My patent contributions reflect the translational dimension of my research, span
     {% if pat.filing_date %}<br>Filed: {{ pat.filing_date | date: "%B %d, %Y" }}{% endif %}
     {% if pat.publication_date %}<br>Published: {{ pat.publication_date | date: "%B %d, %Y" }}{% endif %}
 
-    {# >>> ADD THIS BLOCK <<< #}
     {% if pat.national_phase and pat.national_phase.size > 0 %}
       <br>National phase:
       {% for np in pat.national_phase %}
@@ -47,34 +51,10 @@ My patent contributions reflect the translational dimension of my research, span
         {% endif %}
       {% endfor %}
     {% endif %}
-    {# >>> END ADDED BLOCK <<< #}
-
   </li>
   {% endfor %}
 </ul>
-  {% endfor %}
-{% else %}
-<p><em>No PCT entries yet.</em></p>
-{% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
-<h2 id="india">India</h2>
-{% if ind and ind.size > 0 %}
-  {% assign by_year = ind | sort: "year" | reverse | group_by: "year" %}
-  {% for yr in by_year %}
-### {{ yr.name }}
-<ul>
-  {% for pat in yr.items | sort: "title" %}
-  <li>
-    <a href="{{ pat.url | relative_url }}">{{ pat.title }}</a>
-    {% if pat.status %} — <em>{{ pat.status }}</em>{% endif %}
-    {% if pat.application_number %}<br>{{ pat.application_number }}{% endif %}
-    {% if pat.patent_office %} • {{ pat.patent_office }}{% endif %}
-    {% if pat.filing_date %}<br>Filed: {{ pat.filing_date | date: "%B %d, %Y" }}{% endif %}
-    {% if pat.publication_date %}<br>Published: {{ pat.publication_date | date: "%B %d, %Y" }}{% endif %}
-  </li>
-  {% endfor %}
-</ul>
-  {% endfor %}
-{% else %}
-<p><em>No Indian entries yet.</em></p>
-{% endif %}
