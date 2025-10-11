@@ -41,6 +41,12 @@ Building on two decades of experience in molecular modeling, I am now integratin
 In parallel, I am developing computational frameworks to map polyphenol-target interactions, predict mitochondrial toxicity, and understand how small molecules reprogram signaling networks. These methods are complemented by experimental collaborations that validate computational hypotheses through biochemical and pharmacological assays. The ultimate goal is to create predictive, mechanism-informed pipelines that shorten the gap between virtual discovery and real-world therapeutic translation.
 </p>
 
+h3>Research Outputs and Impact</h3>
+
+<p>
+My research contributions have resulted in a strong record of peer-reviewed journal publications spanning leading international journals such as Frontiers in Pharmacology, Oxidative Medicine and Cellular Longevity, and Frontiers in Cellular and Infection Microbiology. These works collectively demonstrate a consistent focus on molecular innovation, translational validation, and interdisciplinary collaboration. In addition to journal articles, I have also contributed to several patent publications that reflect the applied dimension of my research. A detailed list of publications and patents can be found on the <a href="/publications">Publications</a> and <a href="/patents">Patents</a> pages of this site.
+</p>
+
 <h3>Future Directions and Collaborations</h3>
 
 <p>
