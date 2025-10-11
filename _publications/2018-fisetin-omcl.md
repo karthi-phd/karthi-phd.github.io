@@ -3,6 +3,7 @@ title: "Fisetin Confers Cardioprotection against Myocardial Ischemia–Reperfusi
 collection: publications
 permalink: /publication/2018-fisetin-omcl/
 date: 2018-02-25
+year: 2018
 venue: "Oxidative Medicine and Cellular Longevity"
 category: journal
 authors: "Shanmugam, K., Ravindran, S., Kurian, G. A., & Rajesh, M."
