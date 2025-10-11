@@ -7,6 +7,11 @@ redirect_from:
   - /resume
 ---
 
+<style>
+.anchorjs-link { display: none !important; }
+</style>
+
+
 {% include base_path %}
 
 <div class="cv-actions" style="margin-bottom:1rem">
