@@ -3,6 +3,7 @@ title: "Design of LuxO based inhibitors to reverse engineer the genetic circuit 
 collection: publications
 permalink: /publication/2015-luxo-inhibitors/
 date: 2015-06-01
+year: 2015
 venue: "Journal of Chemical and Pharmaceutical Research"
 category: journal
 authors: "Hema, M., Shanmugam, K., & Solomon, A. P."
