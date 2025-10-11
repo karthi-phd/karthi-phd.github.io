@@ -6,7 +6,7 @@ date: 2023-04-05
 venue: "Frontiers in Cellular and Infection Microbiology"
 category: journal
 authors: "Rajaramon, S., David, H., Sajeevan, A., Shanmugam, K., & Solomon, A. P."
-paperurl: "https://doi.org/10.xxxx/fcimb.2023.xxx"
+paperurl: "[https://doi.org/10.xxxx/fcimb.2023.xxx](https://doi.org/10.3389/fcimb.2023.1139026)"
 pdf: "/files/2023-smart-surfaces.pdf"
 citation: "Rajaramon, S., David, H., Sajeevan, A., Shanmugam, K., & Solomon, A. P. (2023). Multi-functional approach in the design of smart surfaces to mitigate bacterial infections: A review. *Frontiers in Cellular and Infection Microbiology*, 2023. https://doi.org/10.xxxx/fcimb.2023.xxx"
 ---
