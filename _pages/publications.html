@@ -64,3 +64,22 @@ A complete and automatically updated list is available on <a href="https://schol
 </ul>
 
 </div>
+<hr>
+
+{% assign pubs_by_year = site.publications | sort: "year" | reverse | group_by: "year" %}
+
+{% for year in pubs_by_year %}
+### {{ year.name }}
+
+<ul>
+  {% assign year_pubs = year.items | sort: "title" %}
+  {% for pub in year_pubs %}
+  <li>
+    <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+    {% if pub.authors %}<br><em>{{ pub.authors }}</em>{% endif %}
+    {% if pub.venue %}<br>{{ pub.venue }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endfor %}
