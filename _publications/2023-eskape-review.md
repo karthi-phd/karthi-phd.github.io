@@ -3,6 +3,7 @@ title: "Revisiting ESKAPE Pathogens: virulence, resistance, and combating strate
 collection: publications
 permalink: /publication/2023-eskape-review/
 date: 2023-03-12
+year: 2023
 venue: "Frontiers in Cellular and Infection Microbiology"
 category: journal
 authors: "Venkateswaran, P., Vasudevan, S., David, H., Shanmugam, K., & Solomon, A. P."
