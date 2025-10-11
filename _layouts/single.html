@@ -106,4 +106,9 @@ layout: default
       </div>
     </div>
   {% endif %}
+
+  {% if page.collection == "publications" %}
+  {% include pub-meta.html authors=page.authors pdf=page.pdf doi=page.paperurl %}
+{% endif %}
+
 </div>
