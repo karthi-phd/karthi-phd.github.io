@@ -9,6 +9,9 @@ heading_anchors: false
 ---
 
 
+<style>
+.page__content h2 { border-bottom:1px solid #e6e6e6; padding-bottom:.15rem; }
+</style>
 
 
 
