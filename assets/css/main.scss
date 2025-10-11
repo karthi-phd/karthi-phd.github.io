@@ -41,15 +41,29 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* LaTeX-like bibliography look inside CV */
+/* Icon lists */
+.fa-list { list-style: none; padding-left: 0; }
+.fa-list > li { margin: .35rem 0; }
+.fa-list > li > i { width: 1.1rem; text-align: center; margin-right: .4rem; opacity: .85; }
+
+/* Publications LaTeX-like formatting */
 .publist { counter-reset: item; list-style: decimal; margin-left: 1.25rem; padding-left: 0; }
-.publist > .pub { margin: 0 0 .6rem 0; }
-.publist .cit { text-indent: -1.25rem; padding-left: 1.25rem; line-height: 1.5; }
+.publist > .pub { margin: 0 0 .65rem 0; }
+.publist .cit { text-indent: -1.25rem; padding-left: 1.25rem; line-height: 1.55; }
 .pub-links { margin-left: .5rem; font-size: .9em; }
-.pub-links .pub-icon { margin-left: .45rem; text-decoration: none; border-bottom: 1px dotted transparent; }
+.pub-links .pub-icon { margin-left: .5rem; text-decoration: none; border-bottom: 1px dotted transparent; }
 .pub-links .pub-icon:hover { border-bottom-color: currentColor; }
 
-/* Better printing for CV */
+/* Muted small text */
+.muted { color: #666; font-size: .95em; }
+
+/* Updated line */
+.cv-updated { margin-top: .75rem; color: #666; font-size: .95em; }
+
+/* Print niceties */
 @media print {
+  .cv-actions { display: none !important; }
   .publist > .pub { page-break-inside: avoid; }
+}
+
 }
