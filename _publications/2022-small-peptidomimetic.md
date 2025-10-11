@@ -3,6 +3,7 @@ title: "A prospective diversity of antibacterial small peptidomimetic and quorum
 collection: publications
 permalink: /publication/2022-small-peptidomimetic/
 date: 2022-09-02
+year: 2022
 venue: "ChemistrySelect"
 category: journal
 authors: "Bhukta, S., Samal, S. K., Vasudevan, S., Shanmugam, K., & Dandela, R."
