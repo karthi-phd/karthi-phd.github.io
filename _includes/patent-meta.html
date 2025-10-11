@@ -1,0 +1,12 @@
+<div class="pat-meta">
+  {% if include.inventors %}<p><strong>Inventors:</strong> {{ include.inventors }}</p>{% endif %}
+  {% if include.assignees %}<p><strong>Assignee(s):</strong> {{ include.assignees }}</p>{% endif %}
+  <div class="pat-buttons">
+    {% if include.pdf %}
+      <a class="btn btn--primary" href="{{ include.pdf | relative_url }}" target="_blank" rel="noopener">Download PDF</a>
+    {% endif %}
+    {% if include.patent_link %}
+      <a class="btn" href="{{ include.patent_link }}" target="_blank" rel="noopener">View on Patent Office</a>
+    {% endif %}
+  </div>
+</div>
