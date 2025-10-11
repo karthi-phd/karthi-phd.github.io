@@ -3,6 +3,7 @@ title: "Emerging evidence-based innovative approaches to control catheter-associ
 collection: publications
 permalink: /publication/2023-ca-uti-review/
 date: 2023-01-10
+year: 2023
 venue: "Frontiers in Cellular and Infection Microbiology"
 category: journal
 authors: "Rajaramon, S., Shanmugam, K., Dandela, R., & Solomon, A. P."
