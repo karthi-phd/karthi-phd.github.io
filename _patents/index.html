@@ -1,39 +1,65 @@
 ---
 layout: archive
 title: "Patents"
+subtitle: "Indian and PCT patent filings from my research"
 permalink: /patents/
 author_profile: true
 ---
-
-<div class="text-justify">
-  <p>
-    This page lists my patent filings and applications. Each entry links to a detail page with summary, key information, and official links.
-  </p>
+<div align="justify">
+<p>
+My patent contributions reflect the translational dimension of my research, spanning anti-infective therapeutics, biofilm control, and cardioprotective concepts. Listed below are applications and publications grouped by jurisdiction and year.
+</p>
 </div>
 
-<hr/>
+<p>
+  <a class="btn" href="#pct">PCT</a>
+  <a class="btn" href="#india">India</a>
+</p>
 
-{% assign items = site.patents | sort: 'date' | reverse %}
-{% for post in items %}
-  <article class="publication-entry">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p>
-      <strong>Type:</strong> {{ post.type }}, 
-      <strong>Year:</strong> {{ post.date | date: "%Y" }},
-      {% if post.application_no %}<strong>Application number:</strong> {{ post.application_no }}{% endif %}
-      {% if post.status %}, <strong>Status:</strong> {{ post.status }}{% endif %}
-    </p>
+{% assign all = site.patents %}
+{% assign pct = all | where: "jurisdiction", "PCT" %}
+{% assign ind = all | where: "jurisdiction", "India" %}
 
-    <div class="pub-links" style="margin:.35rem 0 1rem;">
-      {% if post.record_url %}
-        <a class="btn btn--primary btn--small" href="{{ post.record_url }}" target="_blank">View official record</a>
-      {% endif %}
-      {% if post.pdf %}
-        <a class="btn btn--inverse btn--small" href="{{ post.pdf | relative_url }}" target="_blank">Download PDF</a>
-      {% endif %}
-      <a class="btn btn--small" href="{{ post.url | relative_url }}">More details</a>
-    </div>
+<h2 id="pct">PCT</h2>
+{% if pct and pct.size > 0 %}
+  {% assign by_year = pct | sort: "year" | reverse | group_by: "year" %}
+  {% for yr in by_year %}
+### {{ yr.name }}
+<ul>
+  {% for pat in yr.items | sort: "title" %}
+  <li>
+    <a href="{{ pat.url | relative_url }}">{{ pat.title }}</a>
+    {% if pat.status %} — <em>{{ pat.status }}</em>{% endif %}
+    {% if pat.publication_number %}<br>{{ pat.publication_number }}{% endif %}
+    {% if pat.patent_office %} • {{ pat.patent_office }}{% endif %}
+    {% if pat.filing_date %}<br>Filed: {{ pat.filing_date | date: "%B %d, %Y" }}{% endif %}
+    {% if pat.publication_date %}<br>Published: {{ pat.publication_date | date: "%B %d, %Y" }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+  {% endfor %}
+{% else %}
+<p><em>No PCT entries yet.</em></p>
+{% endif %}
 
-    <hr/>
-  </article>
-{% endfor %}
+<h2 id="india">India</h2>
+{% if ind and ind.size > 0 %}
+  {% assign by_year = ind | sort: "year" | reverse | group_by: "year" %}
+  {% for yr in by_year %}
+### {{ yr.name }}
+<ul>
+  {% for pat in yr.items | sort: "title" %}
+  <li>
+    <a href="{{ pat.url | relative_url }}">{{ pat.title }}</a>
+    {% if pat.status %} — <em>{{ pat.status }}</em>{% endif %}
+    {% if pat.application_number %}<br>{{ pat.application_number }}{% endif %}
+    {% if pat.patent_office %} • {{ pat.patent_office }}{% endif %}
+    {% if pat.filing_date %}<br>Filed: {{ pat.filing_date | date: "%B %d, %Y" }}{% endif %}
+    {% if pat.publication_date %}<br>Published: {{ pat.publication_date | date: "%B %d, %Y" }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+  {% endfor %}
+{% else %}
+<p><em>No Indian entries yet.</em></p>
+{% endif %}
