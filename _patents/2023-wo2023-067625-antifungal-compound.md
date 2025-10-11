@@ -27,12 +27,23 @@ patent_link:
 national_phase:
   - country: "India"
     office: "Indian Patent Office"
-    application_number: ""     # add when you have the NP number
-    filing_date:
-    publication_number:
-    grant_number:
-    status: "Designated / Pending national entry"
-    link: ""                   # paste IPO link when available
+    application_number: "202111018036"     # priority already on site; add NP number when assigned
+    filing_date: "2021-10-19"
+    status: "Priority / National"
+    link: ""
+  - country: "China"
+    office: "CNIPA"
+    application_number: "202280084034.6"
+    filing_date: "2022-10-19"
+    publication_number: "CN118742314 A"
+    publication_date: "2024-10-01"
+    status: "Published"
+    link: ""                                # paste official CNIPA/pss link if you have it
+  - country: "United States"
+    office: "USPTO"
+    publication_number: "US 2025/0017952 A1"
+    status: "Published"
+    link: ""                                # Google Patents/PAIR link if available
 
 # Public-safe abstract
 abstract: >-
