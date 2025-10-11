@@ -3,6 +3,7 @@ title: "Virtual Screening of SdiA Inhibitors from Melia dubia to Curtail Uropath
 collection: publications
 permalink: /publication/sdia-screening-2013/
 date: 2013-06-12
+year: 2013
 venue: "Asian Journal of Chemistry"
 category: journal
 authors: "Ravichandran, V., Shanmugam, K., Shrimathi, R., & Solomon, A. P."
