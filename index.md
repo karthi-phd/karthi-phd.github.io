@@ -7,7 +7,6 @@ redirect_from:
   - /home/
 ---
 
-### About Me
 
 I am an Assistant Professor in the School of Chemical and Biotechnology at SASTRA Deemed University, Tiruchirapalli, where I combine my interests in computational drug discovery, molecular informatics, and translational pharmacology. My work focuses on understanding how small molecules influence disease pathways at both the molecular and systems levels, using an integrated computational and experimental approach.
 
