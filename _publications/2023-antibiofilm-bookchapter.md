@@ -3,6 +3,7 @@ title: "In silico and in vivo methods for designing antibiofilm agents against P
 collection: publications
 permalink: /publication/2023-antibiofilm-bookchapter/
 date: 2023-08-10
+year: 2023
 venue: "Book Chapter"
 category: book
 authors: "Tamba, S., Panicker, A., Jobby, R., Shanmugam, K., & Ravichandran, V."
