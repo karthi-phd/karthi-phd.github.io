@@ -34,6 +34,21 @@ My patent contributions reflect the translational dimension of my research, span
     {% if pat.patent_office %} • {{ pat.patent_office }}{% endif %}
     {% if pat.filing_date %}<br>Filed: {{ pat.filing_date | date: "%B %d, %Y" }}{% endif %}
     {% if pat.publication_date %}<br>Published: {{ pat.publication_date | date: "%B %d, %Y" }}{% endif %}
+
+    {# >>> ADD THIS BLOCK <<< #}
+    {% if pat.national_phase and pat.national_phase.size > 0 %}
+      <br>National phase:
+      {% for np in pat.national_phase %}
+        {% if forloop.first == false %}, {% endif %}
+        {% if np.link and np.link != "" %}
+          <a href="{{ np.link }}" target="_blank" rel="noopener">{{ np.country }}</a>
+        {% else %}
+          {{ np.country }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {# >>> END ADDED BLOCK <<< #}
+
   </li>
   {% endfor %}
 </ul>
