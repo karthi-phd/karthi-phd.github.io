@@ -7,13 +7,10 @@ author_profile: true
 <hr>
 
 {% assign pubs_by_year = site.publications | sort: "year" | reverse | group_by: "year" %}
-
 {% for year in pubs_by_year %}
-### {{ year.name }}
-
+<h3>{{ year.name }}</h3>
 <ul>
-  {% assign year_pubs = year.items | sort: "title" %}
-  {% for pub in year_pubs %}
+  {% for pub in year.items %}
   <li>
     <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
     {% if pub.authors %}<br><em>{{ pub.authors }}</em>{% endif %}
@@ -21,5 +18,4 @@ author_profile: true
   </li>
   {% endfor %}
 </ul>
-
 {% endfor %}
