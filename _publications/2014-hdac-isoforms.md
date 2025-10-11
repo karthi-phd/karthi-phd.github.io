@@ -3,6 +3,7 @@ title: "Energy-optimised pharmacophore approach to identify potential hotspots d
 collection: publications
 permalink: /publication/2014-hdac-isoforms/
 date: 2014-03-18
+year: 2014
 venue: "Journal of Biomolecular Structure and Dynamics"
 category: journal
 authors: "Ganai, S. A., Shanmugam, K., & Mahadevan, V."
