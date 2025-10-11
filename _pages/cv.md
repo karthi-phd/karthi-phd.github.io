@@ -34,7 +34,7 @@ a.direct-link {
 </div>
 
 Contact
-
+======
 <ul class="fa-list">
   <li><i class="fas fa-user-circle"></i> <strong>Karthi Shanmugam, Ph.D.</strong></li>
   <li><i class="fas fa-briefcase"></i> Assistant Professor, Division of Bioinformatics, School of Chemical & Biotechnology, SASTRA Deemed University</li>
