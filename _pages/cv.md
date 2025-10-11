@@ -43,9 +43,8 @@ Contact
 
 Research summary
 ======
-<ul class="fa-list">
-  <li><i class="fas fa-flask"></i> Computational and translational drug discovery focused on antibiofilm and antivirulence strategies, small-molecule design, and cardioprotective mechanisms in ischemia–reperfusion injury</li>
-  <li><i class="fas fa-microchip"></i> Emphasis on data-driven modeling, molecular simulation, and mechanism-informed validation</li>
+<ul class="fa-list"><li><i class="fas fa-flask"></i> Computational and translational drug discovery focused on antibiofilm and antivirulence strategies, small-molecule design, and cardioprotective mechanisms in ischemia–reperfusion injury</li>
+<li><i class="fas fa-microchip"></i> Emphasis on data-driven modeling, molecular simulation, and mechanism-informed validation</li>
 </ul>
 
 Education
