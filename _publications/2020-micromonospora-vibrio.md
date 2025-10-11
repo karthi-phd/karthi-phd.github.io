@@ -3,6 +3,7 @@ title: "Exploration of anti-infectives from mangrove-derived Micromonospora sp. 
 collection: publications
 permalink: /publication/2020-micromonospora-vibrio/
 date: 2020-11-22
+year: 2020
 venue: "Frontiers in Microbiology"
 category: journal
 authors: "Sarveswari, H. B., Kalimuthu, S., Shanmugam, K., & Solomon, A. P."
