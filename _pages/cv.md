@@ -8,7 +8,17 @@ redirect_from:
 ---
 
 <style>
-.anchorjs-link { display: none !important; }
+/* Hide heading anchors on this page only */
+.anchorjs-link,
+a.heading-anchor,
+a.header-link,
+a.direct-link {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
 </style>
 
 
