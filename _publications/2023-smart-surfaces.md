@@ -3,6 +3,7 @@ title: "Multi-functional approach in the design of smart surfaces to mitigate ba
 collection: publications
 permalink: /publication/2023-smart-surfaces/
 date: 2023-04-05
+year: 2023
 venue: "Frontiers in Cellular and Infection Microbiology"
 category: journal
 authors: "Rajaramon, S., David, H., Sajeevan, A., Shanmugam, K., & Solomon, A. P."
