@@ -3,6 +3,7 @@ title: "Multi-target interactions of essential oil nanoemulsion of Cinnamomum tr
 collection: publications
 permalink: /publication/2022-cinnamomum-diabetes/
 date: 2022-05-19
+year: 2022
 venue: "Process Biochemistry"
 category: journal
 authors: "Venkatraman, S., Raj, D., Shanmugam, K., & Murugan, R."
