@@ -3,6 +3,7 @@ title: "Synthetic quercetin inhibits mycobacterial growth possibly by interactin
 collection: publications
 permalink: /publication/2013-quercetin-mycobacteria/
 date: 2013-02-01
+year: 2013
 venue: "Romanian Biotechnology Letters"
 category: journal
 authors: "Suriyanarayanan, B., Shanmugam, K., & Santhosh, R. S."
