@@ -3,6 +3,7 @@ title: "Design, dynamic docking, synthesis, and in vitro validation of a novel D
 collection: publications
 permalink: /publication/2022-dna-gyraseb/
 date: 2022-02-12
+year: 2022
 venue: "Journal of Biomolecular Structure and Dynamics"
 category: journal
 authors: "Pudipeddi, A., Vasudevan, S., Shanmugam, K., & Solomon, A. P."
