@@ -3,6 +3,7 @@ title: "Screening of SdiA Inhibitors from Melia dubia Seeds Extracts towards the
 collection: publications
 permalink: /publication/2012-sdia-holdback/
 date: 2012-10-18
+year: 2012
 venue: "Medicinal Chemistry"
 category: journal
 authors: "Ravichandran, V., Shanmugam, K., & Solomon, A. P."
