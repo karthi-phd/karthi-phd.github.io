@@ -3,6 +3,7 @@ title: "Fisetin Attenuates Myocardial Ischemia–Reperfusion Injury by Activatin
 collection: publications
 permalink: /publication/2021-risk-pathway/
 date: 2021-06-15
+year: 2021
 venue: "Frontiers in Pharmacology"
 category: journal
 authors: "Shanmugam, K., Boovarahan, S. R., Prem, P. N., & Kurian, G. A."
