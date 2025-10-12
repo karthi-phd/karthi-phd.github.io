@@ -36,8 +36,7 @@ heading_anchors: false
 
 Contact
 ======
-<ul>
-  <li><i class="fas fa-user-circle"></i> <strong>Karthi Shanmugam, Ph.D.</strong></li>
+<ul class="fa-list"><li><i class="fas fa-user-circle"></i> <strong>Karthi Shanmugam, Ph.D.</strong></li>
   <li><i class="fas fa-briefcase"></i> Assistant Professor, Division of Bioinformatics, School of Chemical & Biotechnology, SASTRA Deemed University</li>
   <li><i class="fas fa-map-marker-alt"></i> Tiruchirapalli, Tamil Nadu, India</li>
   <li><i class="fas fa-envelope"></i> <a href="mailto:karthi@scbt.sastra.edu">karthi@scbt.sastra.edu</a></li>
