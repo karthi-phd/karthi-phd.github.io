@@ -27,7 +27,7 @@ Contact
   <li><i class="fas fa-envelope"></i> <a href="mailto:karthi@scbt.sastra.edu">karthi@scbt.sastra.edu</a></li>
   <li>
     <i class="fas fa-id-badge"></i>
-    ORCID: <a href="https://orcid.org/0000-0002-3198-4036" target="_blank" rel="noopener">0000-0002-3198-4036</a> &nbsp;•&nbsp;
+    ORCID: <a href="https://orcid.org/0000-0002-3198-4036" target="_blank" rel="noopener">ORCID</a> &nbsp;•&nbsp;
     <i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=EnEq7LkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> &nbsp;•&nbsp;
     <i class="fab fa-researchgate"></i> <a href="https://www.researchgate.net/profile/Karthi-Shanmugam" target="_blank" rel="noopener">ResearchGate</a> &nbsp;•&nbsp;
     <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kshanmugam-phd/" target="_blank" rel="noopener">LinkedIn</a>
