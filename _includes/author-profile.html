@@ -5,7 +5,6 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-<div id="sidebar-bg" class="sidebar-animated-bg">
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
@@ -239,5 +238,4 @@
       {% endif %}      
     </ul>
   </div>
-</div>
 </div>
