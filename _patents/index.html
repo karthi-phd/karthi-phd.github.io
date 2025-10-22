@@ -61,7 +61,7 @@ My patent contributions reflect the translational dimension of my research, span
 {% if ind and ind.size > 0 %}
   {% assign by_year = ind | sort: "year" | reverse | group_by: "year" %}
   {% for yr in by_year %}
-### {{ yr.name }}
+<h3>{{ yr.name }}</h3>
 <ul>
   {% for pat in yr.items | sort: "title" %}
   <li>
